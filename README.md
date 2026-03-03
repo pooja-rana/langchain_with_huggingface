@@ -1,19 +1,23 @@
-# langchain_with_huggingface
+# 🚀 Hugging Face + LangChain Example
 
-🚀 Hugging Face with LangChain
+This project demonstrates how to use **Hugging Face models** with LangChain.
 
-This project demonstrates how to use Hugging Face models with:
+It includes:
+- Prompt Templates
+- Hugging Face Router API
+- HuggingFaceEndpoint
+- Chat Model Integration
+- Output Parsing
+- Text-to-Image Generation
 
-Hugging Face Router API
+---
 
-Hugging Face Inference Client
+# 📦 Installation
 
-LangChain + HuggingFaceEndpoint
+Install required libraries:
 
-Chat-based LLM integration
-
-Prompt templates
-
-Output parsers
-
-It provides simple examples for text generation, chat models, and image generation.
+```bash
+pip install langchain
+pip install langchain-huggingface
+pip install huggingface_hub
+pip install openai
